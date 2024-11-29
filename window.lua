@@ -337,7 +337,7 @@ local function btnLeave()
     GameTooltip:Hide()
   end
 
-  this:SetBackdropBorderColor(.4,.4,.4,1)
+  this:SetBackdropBorderColor(0,0,0,1)
 end
 
 window:ClearAllPoints()
