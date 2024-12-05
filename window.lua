@@ -329,7 +329,7 @@ local function btnEnter()
     GameTooltip:Show()
   end
 
-  this:SetBackdropBorderColor(1,.25,.25,1)
+  this:SetBackdropBorderColor(0.267,0.251,0.216,1)
 end
 
 local function btnLeave()
