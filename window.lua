@@ -329,7 +329,7 @@ local function btnEnter()
     GameTooltip:Show()
   end
 
-  this:SetBackdropBorderColor(0.267,0.251,0.216,1)
+  this:SetBackdropBorderColor(.7,.2,1,1)
 end
 
 local function btnLeave()
@@ -715,24 +715,24 @@ window.Refresh = function(force, report)
 
     -- update panel button appearance
     if config.view == 1 then
-      window.btnDamage.caption:SetTextColor(1,.9,0,1)
+      window.btnDamage.caption:SetTextColor(.7,.2,1,1)
       window.btnMode.caption:SetText("Damage")
     elseif config.view == 2 then
-      window.btnDPS.caption:SetTextColor(1,.9,0,1)
+      window.btnDPS.caption:SetTextColor(.7,.2,1,1)
       window.btnMode.caption:SetText("DPS")
     elseif config.view == 3 then
-      window.btnHeal.caption:SetTextColor(1,.9,0,1)
+      window.btnHeal.caption:SetTextColor(.7,.2,1,1)
       window.btnMode.caption:SetText("Heal")
     elseif config.view == 4 then
-      window.btnHPS.caption:SetTextColor(1,.9,0,1)
+      window.btnHPS.caption:SetTextColor(.7,.2,1,1)
       window.btnMode.caption:SetText("HPS")
     end
 
     if config.segment == 0 then
-      window.btnOverall.caption:SetTextColor(1,.9,0,1)
+      window.btnOverall.caption:SetTextColor(.7,.2,1,1)
       window.btnSegment.caption:SetText("Overall")
     elseif config.segment == 1 then
-      window.btnCurrent.caption:SetTextColor(1,.9,0,1)
+      window.btnCurrent.caption:SetTextColor(.7,.2,1,1)
       window.btnSegment.caption:SetText("Current")
     end
 
